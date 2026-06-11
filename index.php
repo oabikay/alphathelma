@@ -576,7 +576,7 @@
                         </div>
 
                         <div>
-                            <a href="article.html" class="btn popup-btn-action w-100 text-uppercase shadow-sm text-decoration-none d-block text-center">
+                            <a href="article.php" class="btn popup-btn-action w-100 text-uppercase shadow-sm text-decoration-none d-block text-center">
                                 Get Instant Access
                             </a>    
                         </div>

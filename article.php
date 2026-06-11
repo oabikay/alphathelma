@@ -93,7 +93,7 @@
             border: none;
             transition: all 0.25s ease-in-out;
             width: 100%;
-            text-uppercase: uppercase;
+            text-transform: uppercase;
         }
 
         .btn-submit:hover {
@@ -139,7 +139,15 @@
                 Enter your details to receive the article
             </p>
 
-            <form action="#" method="POST" autocomplete="on">
+            <?php
+                    if (isset($error)) {
+                        echo '<div class="alert alert-danger" role="alert">' . $error . '</div>';
+                    }
+                    if (isset($success)) {
+                        echo '<div class="alert alert-success" role="alert">' . $success . '</div>';
+                    }
+                    ?>
+            <form action="proc_article.php" method="POST" autocomplete="on">
                 
                 <div class="mb-3">
                     <label for="fullName" class="form-label">Full Name</label>
@@ -151,6 +159,10 @@
                 <div class="mb-4">
                     <label for="emailAddress" class="form-label">Email Address</label>
                     <input type="email" id="emailAddress" name="email" class="form-control" placeholder="you@example.com" required>
+                </div>
+                <div class="mb-4">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phone" class="form-control" placeholder="+2340123456789" required>
                 </div>
 
                 <div class="mb-4">
