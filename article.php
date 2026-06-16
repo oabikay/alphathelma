@@ -172,7 +172,7 @@
                 </div>
 
                 <div class="text-center">
-                    <a href="index.html" class="back-link">
+                    <a href="index.php" class="back-link">
                         <i class="fas fa-arrow-left me-1 small"></i> Back to Homepage
                     </a>
                 </div>

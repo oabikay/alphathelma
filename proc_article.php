@@ -25,7 +25,7 @@
         exit;
     }
 
-    $to = "info@gmail.com";
+    $to = "abdsalamhamad3@gmail.com";
     $mail_sub = "Feedback from Website";
     $from = "From: no-reply@alphathelma.com\r\n";
     $body = 'Below is the infor that was filles'."\n"
