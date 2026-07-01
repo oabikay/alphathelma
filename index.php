@@ -6,6 +6,7 @@
     <title>Alpha-Thelma | The French Fluently Academy</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="dist/images/logo_alpha.png" type="image/x-icon">
     
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nova+Script&display=swap');
@@ -169,10 +170,11 @@
     
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 border-bottom border-light sticky-top">
         <div class="container">
-            <a class="navbar-brand d-flex flex-column" href="#">
-                <span class="m-0 text-dark" style="font-family: 'Nova Script', cursive; font-size: 32px; line-height: 1;">Alpha Thelma</span>
-                <span class="m-0 text-uppercase tracking-wider fw-bold" style="font-size: 0.68rem; color: #A61C24; letter-spacing: 0.8px;">The French Fluently Academy</span>
-            </a>
+ <a class="navbar-brand d-flex flex-column" href="#">
+    <img src="dist/images/logo_alpha.png" alt="Alpha Thelma Logo" style="height: 100%; width: 50%; mb-1;">
+    <span class="m-0 text-uppercase tracking-wider fw-bold" style="font-size: 0.75rem; color: #333; letter-spacing: 0.8px;">Alpha Thelma</span>
+    <span class="m-0 text-uppercase opacity-75" style="font-size: 0.55rem; color: #A61C24; letter-spacing: 0.5px;">French Fluently Academy</span>
+</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -217,7 +219,7 @@
                     <i class="fa-solid fa-certificate fa-stack-2x" style="color: #939FA8;"></i>
                     <i class="fa-solid fa-check fa-stack-1x text-white"></i>
                 </span> 
-                100% Success-Based Guarantee
+                99% Success-Based Guarantee
             </div>
 
         </div>
@@ -246,12 +248,12 @@
                         <hr class="text-muted my-4 opacity-25">
 
                         <div class="d-flex align-items-center gap-3 pt-2">
-                            <img src="dist/images/pics.png" 
-                                 alt="Olumide Abikoye" 
+                            <img src="dist/images/popup.jpeg" 
+                                 alt="Aderonke Olu-Abikoye" 
                                  style="width: 55px; height: 55px;">
                             <div>
-                                <h5 class="m-0 fw-bold text-dark" style="font-size: 1rem;">Olumide Abikoye</h5>
-                                <p class="m-0 text-muted small">Lead Strategist, The French Fluently Academy</p>
+                                <h5 class="m-0 fw-bold text-dark" style="font-size: 1rem;">Aderonke Olu-Abikoye</h5>
+                                <p class="m-0 text-muted small">Coordinator, The French Fluently Academy</p>
                             </div>
                         </div>
                     </div>
@@ -511,10 +513,10 @@
             </div>
 
             <div class="row g-3 justify-content-center align-items-center mx-auto mt-4" style="max-width: 640px;">
-                <div class="col-6 col-sm-3"><div class=""><img src="dist/images/Accredited.png" alt="Trust Badge 1" class="img-fluid"></div></div>
-                <div class="col-6 col-sm-3"><div class=""><img src="dist/images/Alliance.png" alt="Trust Badge 2" class="img-fluid"></div></div>
-                <div class="col-6 col-sm-3"><div class=""><img src="dist/images/Lagos.png" alt="Trust Badge 3" class="img-fluid"></div></div>
-                <div class="col-6 col-sm-3"><div class=""><img src="dist/images/British.png" alt="Trust Badge 4" class="img-fluid"></div></div>
+                <div class="col-6 col-sm-3"><div class=""><img src="dist/images/accredited.png" alt="Trust Badge 1" class="img-fluid"></div></div>
+                <div class="col-6 col-sm-3"><div class=""><img src="dist/images/alliance.png" alt="Trust Badge 2" class="img-fluid"></div></div>
+                <div class="col-6 col-sm-3"><div class=""><img src="dist/images/lagos.png" alt="Trust Badge 3" class="img-fluid"></div></div>
+                <div class="col-6 col-sm-3"><div class=""><img src="dist/images/british.png" alt="Trust Badge 4" class="img-fluid"></div></div>
             </div>
 
         </div>
