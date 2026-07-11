@@ -66,6 +66,39 @@
             color: #111111;
         }
 
+        /* Custom Carousel Indicator Dots Customization */
+        .hero-carousel .carousel-indicators [data-bs-target] {
+            background-color: #A61C24;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin: 0 6px;
+            opacity: 0.3;
+            transition: all 0.3s ease;
+        }
+
+        .hero-carousel .carousel-indicators .active {
+            opacity: 1;
+            transform: scale(1.2);
+            width: 28px;
+            border-radius: 6px;
+        }
+
+        /* Custom Carousel Control Chevron Positions */
+        .hero-carousel .carousel-control-prev,
+        .hero-carousel .carousel-control-next {
+            width: 5%;
+            opacity: 0.2;
+            transition: opacity 0.2s ease;
+        }
+        .hero-carousel:hover .carousel-control-prev,
+        .hero-carousel:hover .carousel-control-next {
+            opacity: 0.8;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            filter: invert(1) sepia(1) saturate(5) hue-rotate(335deg); /* Matches #A61C24 */
+        }
+
         .letter-box {
             background-color: #ffffff;
             border: 1px solid #ECECEC;
@@ -193,27 +226,100 @@
         </div>
     </nav>
 
-    <section class="hero-section py-5 bg-white">
-        <div class="container text-center py-4">
+    <div id="heroSlider" class="carousel slide hero-carousel py-5 bg-white" data-bs-ride="carousel" data-bs-interval="6000">
+        
+        <!-- Bottom dot indicators -->
+        <div class="carousel-indicators mb-0" style="bottom: -10px;">
+            <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner text-center py-2">
             
-            <div class="d-inline-block px-3 py-1 rounded-pill mb-4" style="background-color: #FBEBEB; border: 1px solid #F3C6C8;">
-                <span class="text-danger fw-bold tracking-wider" style="font-size: 0.75rem; letter-spacing: 1px;">LIMITED SEATS: LAGOS & ABUJA</span>
+            <!-- Slide 1: Original TEF/TCF Hook -->
+            <div class="carousel-item active">
+                <div class="container py-3">
+                    <div class="d-inline-block px-3 py-1 rounded-pill mb-4" style="background-color: #FBEBEB; border: 1px solid #F3C6C8;">
+                        <span class="text-danger fw-bold tracking-wider" style="font-size: 0.75rem; letter-spacing: 1px;">LIMITED SEATS: LAGOS & ABUJA</span>
+                    </div>
+
+                    <h1 class="display-4 hero-title mb-4">
+                        CRACK THE TEF/TCF <span style="color: #A61C24;">CODE</span> <br> IN 90 DAYS.
+                    </h1>
+
+                    <p class="lead text-secondary mx-auto mb-5 px-3" style="max-width: 680px; font-size: 1.1rem; color: #4A5568 !important;">
+                        The Weekend Canadian Accelerator for Ambitious Nigerian Professionals (35+) who cannot afford to fail again.
+                    </p>
+
+                    <div class="mb-4">
+                        <a href="#secure" class="btn btn-brand-primary btn-lg px-5 py-3 shadow-sm text-uppercase" style="font-size: 1.15rem; letter-spacing: 0.5px;">
+                            Secure My Seat Now <i class="fas fa-chevron-right ms-2" style="font-size: 1rem;"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <h1 class="display-4 hero-title mb-4">
-                CRACK THE TEF/TCF <span style="color: #A61C24;">CODE</span> <br> IN 90 DAYS.
-            </h1>
+            <!-- Slide 2: Strategic 62 Bonus Points Value Offer -->
+            <div class="carousel-item">
+                <div class="container py-3">
+                    <div class="d-inline-block px-3 py-1 rounded-pill mb-4" style="background-color: #FFF9E6; border: 1px solid #FFEBA3;">
+                        <span class="fw-bold tracking-wider" style="font-size: 0.75rem; letter-spacing: 1px; color: #B38600;">EXPRESS ENTRY BYPASS</span>
+                    </div>
 
-            <p class="lead text-secondary mx-auto mb-5 px-3" style="max-width: 680px; font-size: 1.1rem; color: #4A5568 !important;">
-                The Weekend Canadian Accelerator for Ambitious Nigerian Professionals (35+) who cannot afford to fail again.
-            </p>
+                    <h1 class="display-4 hero-title mb-4">
+                        CLAIM YOUR <span style="color: #A61C24;">62 BONUS POINTS</span> <br> REGARDLESS OF YOUR AGE.
+                    </h1>
 
-            <div class="mb-4">
-                <a href="#secure" class="btn btn-brand-primary btn-lg px-5 py-3 shadow-sm text-uppercase" style="font-size: 1.15rem; letter-spacing: 0.5px;">
-                    Secure My Seat Now <i class="fas fa-chevron-right ms-2" style="font-size: 1rem;"></i>
-                </a>
+                    <p class="lead text-secondary mx-auto mb-5 px-3" style="max-width: 710px; font-size: 1.1rem; color: #4A5568 !important;">
+                        Stop letting age point deductions stall your immigration profile. Unlock the proven, high-authority blueprint built strictly for corporate executives.
+                    </p>
+
+                    <div class="mb-4">
+                        <a href="#secure" class="btn btn-brand-primary btn-lg px-5 py-3 shadow-sm text-uppercase" style="font-size: 1.15rem; letter-spacing: 0.5px;">
+                            Bypass The Age Penalty <i class="fas fa-shield-halved ms-2" style="font-size: 1rem;"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
+            <!-- Slide 3: Iron-Clad Success Guarantee Callout -->
+            <div class="carousel-item">
+                <div class="container py-3">
+                    <div class="d-inline-block px-3 py-1 rounded-pill mb-4" style="background-color: #EBFBEE; border: 1px solid #C6F3CC;">
+                        <span class="text-success fw-bold tracking-wider" style="font-size: 0.75rem; letter-spacing: 1px;">100% RISK-FREE TUITION</span>
+                    </div>
+
+                    <h1 class="display-4 hero-title mb-4">
+                        GET YOUR DESIRED <span style="color: #A61C24;">CLB SCORE</span> <br> OR A COMPLETE REFUND.
+                    </h1>
+
+                    <p class="lead text-secondary mx-auto mb-5 px-3" style="max-width: 680px; font-size: 1.1rem; color: #4A5568 !important;">
+                        Our "Godfather Offer" means we shoulder all the risk. Master the structural templates that turn complex French modules into predictable patterns.
+                    </p>
+
+                    <div class="mb-4">
+                        <a href="#secure" class="btn btn-brand-primary btn-lg px-5 py-3 shadow-sm text-uppercase" style="font-size: 1.15rem; letter-spacing: 0.5px;">
+                            Read Our Guarantee <i class="fas fa-arrow-down ms-2" style="font-size: 1rem;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Left & Right Arrow Navigation -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        <!-- Static trust element underneath the sliding text content -->
+        <div class="container text-center">
             <div class="d-flex align-items-center justify-content-center text-uppercase tracking-wider mt-4 gap-2" style="font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; color: #4A5568;">
                 <span class="fa-stack" style="font-size: 0.75rem; width: 2em; height: 2em; line-height: 2em;">
                     <i class="fa-solid fa-certificate fa-stack-2x" style="color: #939FA8;"></i>
@@ -221,9 +327,8 @@
                 </span> 
                 99% Success-Based Guarantee
             </div>
-
         </div>
-    </section>
+    </div>
 
     <section class="letter-section py-5 bg-light border-top border-bottom border-light">
         <div class="container">
