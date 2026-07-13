@@ -245,11 +245,11 @@
                     </div>
 
                     <h1 class="display-4 hero-title mb-4">
-                        CRACK THE TEF/TCF <span style="color: #A61C24;">CODE</span> <br> IN 90 DAYS.
+                        EXPERIENCE A <span style="color: #A61C24;">FREE ONE-DAY</span> <br> DEMO CLASS.
                     </h1>
 
                     <p class="lead text-secondary mx-auto mb-5 px-3" style="max-width: 680px; font-size: 1.1rem; color: #4A5568 !important;">
-                        The Weekend Canadian Accelerator for Ambitious Nigerian Professionals (35+) who cannot afford to fail again.
+                        See how quickly you can begin speaking and understanding French before you commit to the full program.
                     </p>
 
                     <div class="mb-4">
@@ -268,11 +268,11 @@
                     </div>
 
                     <h1 class="display-4 hero-title mb-4">
-                        CLAIM YOUR <span style="color: #A61C24;">62 BONUS POINTS</span> <br> REGARDLESS OF YOUR AGE.
+                        CRACK THE TEF/TCF <span style="color: #A61C24;"> CODE</span> <br> IN 90 DAYS.
                     </h1>
 
                     <p class="lead text-secondary mx-auto mb-5 px-3" style="max-width: 710px; font-size: 1.1rem; color: #4A5568 !important;">
-                        Stop letting age point deductions stall your immigration profile. Unlock the proven, high-authority blueprint built strictly for corporate executives.
+                        The Weekend Canadian Accelerator for Ambitious Nigerian Professionals (35+) who cannot afford to fail again.
                     </p>
 
                     <div class="mb-4">
@@ -291,11 +291,11 @@
                     </div>
 
                     <h1 class="display-4 hero-title mb-4">
-                        GET YOUR DESIRED <span style="color: #A61C24;">CLB SCORE</span> <br> OR A COMPLETE REFUND.
+                        TRY BEFORE YOU ENROLL<span style="color: #A61C24;"> FREE</span>
                     </h1>
 
                     <p class="lead text-secondary mx-auto mb-5 px-3" style="max-width: 680px; font-size: 1.1rem; color: #4A5568 !important;">
-                        Our "Godfather Offer" means we shoulder all the risk. Master the structural templates that turn complex French modules into predictable patterns.
+                        Join our one-day live demo class and discover why our students gain the confidence to pass the TEF/TCF.
                     </p>
 
                     <div class="mb-4">
@@ -675,7 +675,7 @@
 
                         <div class="mb-4">
                             <h3 class="fw-bold text-white text-balance mb-3" style="font-size: 1.75rem; line-height: 1.35; letter-spacing: -0.3px;">
-                                10 Mistakes People Make While Learning French
+                                Experience a FREE One-Day Demo Class.
                             </h3>
                             <p class="text-secondary m-0" style="font-size: 0.95rem; color: #94a3b8 !important; font-weight: 400; line-height: 1.5;">
                                 Learn practical insights to becoming a master.

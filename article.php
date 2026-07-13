@@ -130,13 +130,13 @@
             </div>
             
             <h1 class="page-title m-0">
-                10 Mistakes People Make While Learning French
+                Experience a FREE One-Day Demo Class.
             </h1>
         </div>
 
         <div class="form-container">
             <p class="form-caption text-center mb-4">
-                Enter your details to receive the article
+                Enter your details to book a seat
             </p>
 
             <?php
@@ -167,7 +167,7 @@
 
                 <div class="mb-4">
                     <button type="submit" class="btn btn-submit text-uppercase">
-                        Send Me Article <i class="fas fa-paper-plane ms-2" style="font-size: 0.9rem;"></i>
+                        Book a Seat <i class="fas fa-paper-plane ms-2" style="font-size: 0.9rem;"></i>
                     </button>
                 </div>
 
