@@ -41,7 +41,7 @@
     fwrite($file,$body);
     fclose($file);
 
-    $success = 'Your message has been sent successfully We will get back to you soon!';
+    $success = '<a href="https://wa.me/+2348031930275" target="_blank" class="btn btn-brand-primary fw-bold px-4 py-3 shadow text-uppercase w-100">Your seat has been reserved. <br><br>Contact Us on WhatsApp</a>';
     include('article.php');
     exit;
 ?>

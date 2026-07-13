@@ -612,8 +612,8 @@
             </h2>
 
             <div class="mb-5 pt-2">
-                <a href="https://wa.me/+2348031930275" target="_blank" class="btn btn-brand-primary fw-bold px-4 py-3 shadow text-uppercase w-100" style="font-size: 1rem; max-width: 600px; border-bottom: 4px solid #7D1218;">
-                    Click Here To Secure Your Weekend Seat Via WhatsApp Admissions Now
+                <a href="article.php" target="_blank" class="btn btn-brand-primary fw-bold px-4 py-3 shadow text-uppercase w-100" style="font-size: 1rem; max-width: 600px; border-bottom: 4px solid #7D1218;">
+                    Click Here To Secure Your Weekend Seat 
                 </a>
             </div>
 
@@ -642,7 +642,7 @@
 
             <div class="mx-auto pt-3" style="max-width: 720px; font-family: 'Playfair Display', 'Georgia', serif; font-size: 0.95rem; line-height: 1.7; color: #B3B9B9;">
                 <p class="m-0 mb-2">
-                    &copy; 2024 The French Fluently Academy. All rights reserved. Professional Canadian Immigration Training.
+                    &copy; 2026 The French Fluently Academy. All rights reserved. Professional Canadian Immigration Training.
                 </p>
                 <p class="m-0" style="color: #9AA0A0;">
                     Disclaimer: We are an educational consultancy. We are not IRCC or the Canadian Government.
