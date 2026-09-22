@@ -23,7 +23,7 @@ jobs:
       - name: Create a file
         run: echo "This is a test file." > victor/test.txt
 
-      - name: PHP version
+      - name: PHP versions
         run: php -v
 
       - name: Connect to Server
