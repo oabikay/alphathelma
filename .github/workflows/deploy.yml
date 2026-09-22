@@ -26,10 +26,10 @@ jobs:
       - name: PHP versions
         run: php -v
 
-      - name: Connect to Server
-        run: ssh ${{secrets.USERNAME}}@${{secrets.SERVER_IP}} "echo 'Connected to server!'"
+      - name: Server USername
+        run: echo "Server Username: ${{ secrets.USERNAME }}"
 
-
-      
+      - name: Server IP
+        run: echo "Server IP: ${{ secrets.SERVER_IP }}"
 
   
