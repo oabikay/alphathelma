@@ -16,3 +16,14 @@ jobs:
 
       - name: List all files
         run: ls -la
+
+      - name: make folder
+        run: mkdir -p victor
+      
+      - name: Create a file
+        run: echo "This is a test file." > victor/test.txt
+
+      - name: PHP version
+        run: php -v
+
+  
