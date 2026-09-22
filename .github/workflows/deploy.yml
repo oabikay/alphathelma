@@ -26,4 +26,10 @@ jobs:
       - name: PHP version
         run: php -v
 
+      - name: Connect to Server
+        run: ssh ${{secrets.USERNAME}}@${{secrets.SERVER_IP}} "echo 'Connected to server!'"
+
+
+      
+
   
