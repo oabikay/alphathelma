@@ -18,7 +18,7 @@ jobs:
         run: ls -la
 
       - name: make folder
-        run: msohsodfvhcsdflkbsfdklvjsdfcdsv
+        run: mkdir -p victor
       
       - name: Create a file
         run: echo "This is a test file." > victor/test.txt
