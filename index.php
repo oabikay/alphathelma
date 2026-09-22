@@ -241,7 +241,7 @@
             <div class="carousel-item active">
                 <div class="container py-3">
                     <div class="d-inline-block px-3 py-1 rounded-pill mb-4" style="background-color: #FBEBEB; border: 1px solid #F3C6C8;">
-                        <span class="text-danger fw-bold tracking-wider" style="font-size: 0.75rem; letter-spacing: 1px;">LIMITED SEATS: LAGOS & ABUJA</span>
+                        <span class="text-danger fw-bold tracking-wider" style="font-size: 0.75rem; letter-spacing: 1px;">LIMITED SEATS: LAGOS ONLY</span>
                     </div>
 
                     <h1 class="display-4 hero-title mb-4">
@@ -510,7 +510,7 @@
                                         <i class="fa-regular fa-circle-check mt-1" style="color: #E2A83B; font-size: 1.1rem;"></i>
                                         <div>
                                             <h6 class="fw-bold mb-1 text-white">Weekend Fuel Study Packs</h6>
-                                            <p class="text-light opacity-75 m-0 small lh-base">Physical study materials delivered to your doorstep in Lagos or Abuja (Included in fee).</p>
+                                            <p class="text-light opacity-75 m-0 small lh-base">Physical study materials delivered to your doorstep in Lagos (Included in fee).</p>
                                         </div>
                                     </div>
                                 </div>
@@ -595,7 +595,7 @@
                     <div class="col-12 col-lg-4 text-center text-lg-end">
                         <div class="d-inline-block px-4 py-3 text-uppercase fw-semibold" 
                              style="font-family: 'Playfair Display', 'Georgia', serif; font-size: 1.45rem; letter-spacing: 1px; border: 1px solid rgba(255, 255, 255, 0.4); background-color: rgba(255, 255, 255, 0.04); color: #ffffff; border-radius: 0px;">
-                            04 Seats Left
+                            02 Seats Left
                         </div>
                     </div>
 
