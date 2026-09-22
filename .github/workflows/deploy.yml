@@ -1,13 +1,17 @@
-name: My first workflow
+name: My First Workflow
+
 on:
   push:
     branches:
       - main
 
 jobs:
+
   hello:
     runs-on: ubuntu-latest
+
     steps:
+
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -17,19 +21,17 @@ jobs:
       - name: List all files
         run: ls -la
 
-      - name: make folder
+      - name: Make folder
         run: mkdir -p victor
-      
+
       - name: Create a file
         run: echo "This is a test file." > victor/test.txt
 
-      - name: PHP versions
+      - name: PHP version
         run: php -v
 
-      - name: Server USername
-        run: echo "Server Username: ${{ secrets.USERNAME }}"
+      - name: Server Username
+        run: echo ${{ secrets.USERNAME }}
 
       - name: Server IP
-        run: echo "Server IP: ${{ secrets.SERVER_IP }}"
-
-  
+        run: echo ${{ secrets.SERVER_IP }}
