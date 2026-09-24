@@ -1,37 +1,17 @@
-name: My First Workflow
-
+name: My first Workflow
 on:
   push:
     branches:
       - main
-
 jobs:
+    hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
 
-  hello:
-    runs-on: ubuntu-latest
+            - name: Say Hello
+              run: echo "Hello, World!"
 
-    steps:
-
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Say Hello
-        run: echo "Hello, world! from GitHub Actions"
-
-      - name: List all files
-        run: ls -la
-
-      - name: Make folder
-        run: mkdir -p victor
-
-      - name: Create a file
-        run: echo "This is a test file." > victor/test.txt
-
-      - name: PHP version
-        run: php -v
-
-      - name: Server Username
-        run: echo ${{ secrets.USERNAME }}
-
-      - name: Server IP
-        run: echo ${{ secrets.SERVER_IP }}
+            - name: Show all files
+              run: ls -la
