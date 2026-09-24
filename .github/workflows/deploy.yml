@@ -38,6 +38,10 @@ jobs:
           echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
           
+      - name: Delete all files from the project folder
+        run: |
+            rm -rf /var/www/html/*
+            
       - name: Copy all PHP app to Live Server
         run: |
             scp -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no -r ./* ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/var/www/html/
