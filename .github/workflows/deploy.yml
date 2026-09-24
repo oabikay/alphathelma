@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main # or the branch you want to trigger this action
+      - dev
 
 jobs:
   run-update-script:
