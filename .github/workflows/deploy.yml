@@ -41,7 +41,7 @@ jobs:
           
       - name: Delete all files from the project folder
         run: |
-            rm -rf /var/www/html/*
+            sudo rm -rf /var/www/html/*
             
       - name: Copy all PHP app to Live Server
         run: |
