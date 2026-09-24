@@ -219,7 +219,7 @@
                     <li class="nav-item"><a class="nav-link fw-semibold text-dark px-3" href="#program">The Program</a></li>
                     <li class="nav-item"><a class="nav-link fw-semibold text-dark px-3" href="#guarantee">Guarantee</a></li>
                     <li class="nav-item ms-lg-2">
-                        <a class="btn btn-brand-primary px-4 py-2" href="#secure">Secure Seat</a>
+                        <a class="btn btn-brand-primary px-4 py-2" href="#secure">Secure Reservation</a>
                     </li>
                 </ul>
             </div>
@@ -241,7 +241,7 @@
             <div class="carousel-item active">
                 <div class="container py-3">
                     <div class="d-inline-block px-3 py-1 rounded-pill mb-4" style="background-color: #FBEBEB; border: 1px solid #F3C6C8;">
-                        <span class="text-danger fw-bold tracking-wider" style="font-size: 0.75rem; letter-spacing: 1px;">LIMITED SEATS: LAGOS ONLY</span>
+                        <span class="text-danger fw-bold tracking-wider" style="font-size: 0.75rem; letter-spacing: 1px;">LIMITED ReservationS: LAGOS ONLY</span>
                     </div>
 
                     <h1 class="display-4 hero-title mb-4">
@@ -254,7 +254,7 @@
 
                     <div class="mb-4">
                         <a href="#secure" class="btn btn-brand-primary btn-lg px-5 py-3 shadow-sm text-uppercase" style="font-size: 1.15rem; letter-spacing: 0.5px;">
-                            Secure My Seat Now <i class="fas fa-chevron-right ms-2" style="font-size: 1rem;"></i>
+                            Secure My Reservation Now <i class="fas fa-chevron-right ms-2" style="font-size: 1rem;"></i>
                         </a>
                     </div>
                 </div>
@@ -524,11 +524,11 @@
 
                                 <div class="mb-4">
                                     <a href="#secure" class="btn btn-brand-primary btn-lg text-uppercase px-5 py-3 shadow" style="font-size: 1.1rem;">
-                                         Secure My Weekend Seat
+                                         Secure My Weekend Reservation
                                     </a>
                                 </div>
                                 <p class="text-uppercase text-muted small tracking-widest m-0" style="font-size: 0.68rem; font-weight: 700; opacity: 0.7;">
-                                    Only 15 Seats Per Cohort To Ensure Focus
+                                    Only 15 Reservations Per Cohort To Ensure Focus
                                 </p>
                             </div>
                         </div>
@@ -587,7 +587,7 @@
                                 Warning: The Door is Closing Fast.
                             </h3>
                             <p class="m-0 mt-1" style="font-family: 'Inter', 'Arial', sans-serif; font-size: 0.95rem; color: #E2E8F0; font-weight: 400; opacity: 0.9;">
-                                11 of 15 seats are already booked for the next cohort.
+                                11 of 15 Reservations are already booked for the next cohort.
                             </p>
                         </div>
                     </div>
@@ -595,7 +595,7 @@
                     <div class="col-12 col-lg-4 text-center text-lg-end">
                         <div class="d-inline-block px-4 py-3 text-uppercase fw-semibold" 
                              style="font-family: 'Playfair Display', 'Georgia', serif; font-size: 1.45rem; letter-spacing: 1px; border: 1px solid rgba(255, 255, 255, 0.4); background-color: rgba(255, 255, 255, 0.04); color: #ffffff; border-radius: 0px;">
-                            02 Seats Left
+                            02 Reservations Left
                         </div>
                     </div>
 
@@ -613,7 +613,7 @@
 
             <div class="mb-5 pt-2">
                 <a href="article.php" target="_blank" class="btn btn-brand-primary fw-bold px-4 py-3 shadow text-uppercase w-100" style="font-size: 1rem; max-width: 600px; border-bottom: 4px solid #7D1218;">
-                    Click Here To Secure Your Weekend Seat 
+                    Click Here To Secure Your Weekend Reservation 
                 </a>
             </div>
 
