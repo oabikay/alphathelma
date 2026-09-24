@@ -1,4 +1,4 @@
-name: My First Workflow
+name: Deploy to Linux Server
 
 on:
   push:
@@ -6,28 +6,19 @@ on:
       - main
 
 jobs:
-
-  hello:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Say Hello
-        run: echo "Hello, world! from GitHub Actions"
-
-      - name: List all files
-        run: ls -la
-
-      - name: Make directory
-        run: mkdir -p victor
-
-      - name: Create a file
-        run: echo "This is a test file." > victor/test.txt
-
-      - name: PHP version
-        run: php -v
-
-      
+      - name: Copy files to server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          source: "."
+          target: "/var/www/html"
+          rm: true
